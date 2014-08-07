@@ -39,7 +39,7 @@ public class SYBLControlClient {
     protected String REST_API_URL = "http://localhost/rSYBL-analysis-engine-0.1-SNAPSHOT/restWS";
     protected String compRules;
 
-    public SYBLControlClient(String rsyblurl) {
+    public SYBLControlClient() {
         REST_API_URL = Configuration.getrSYBLURL();
     }
     
